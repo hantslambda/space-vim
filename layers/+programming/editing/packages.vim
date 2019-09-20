@@ -4,9 +4,9 @@ MP 'terryma/vim-multiple-cursors'
 
 MP 'scrooloose/nerdcommenter',        { 'on': '<Plug>NERDCommenterToggle' }
 
-MP 'jiangmiao/auto-pairs', { 'on': [] }
+" MP 'jiangmiao/auto-pairs', { 'on': [] }
 
-augroup spacevimAutoPairs
-  autocmd!
-  autocmd CursorHold,CursorHoldI,InsertEnter * call plug#load('auto-pairs') | call AutoPairsTryInit() | autocmd! spacevimAutoPairs
-augroup END
+" augroup spacevimAutoPairs
+  " autocmd!
+  " autocmd CursorHold,CursorHoldI,InsertEnter * call plug#load('auto-pairs') | call AutoPairsTryInit() | autocmd! spacevimAutoPairs
+" augroup END
