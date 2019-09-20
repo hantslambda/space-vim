@@ -82,10 +82,10 @@ let s:leader_map['f'] = {
       \ '8' : '8-fold-level'                    ,
       \ '9' : '9-fold-level'                    ,
       \ 'd' : 'find-current-buffer-in-NERDTree' ,
-      \ 'f' : 'files-in-home-direcotry'         ,
+      \ 'f' : 'files-in-current-direcotry'         ,
       \ 's' : 'save-file'                       ,
       \ 't' : 'toggle-NERDTree'                 ,
-      \ '?' : 'files-in-current-direcotry'      ,
+      \ '?' : 'files-in-home-direcotry'      ,
       \ 'R' : 'reload-vimrc'                    ,
       \ 'b' : ['BLines'                         , 'fzf-find-current-buffer'] ,
       \ }
